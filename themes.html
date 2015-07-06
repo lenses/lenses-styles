@@ -1,0 +1,83 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<style is="custom-style">
+
+  :root {
+    --berlin-foreground1-color: white;
+    --berlin-background-color: blue;
+    --berlin-accent0-color: orange;
+    --berlin-accent1-color: yellow;
+    --berlin-accent2-color: pink;
+
+    --belize-foreground1-color: pink;
+    --belize-background-color: green;
+    --belize-accent0-color: blue;
+    --belize-accent1-color: brown;
+    --belize-accent2-color: red;
+    --belize-accent3-color: var(--belize-accent2-color);
+  }
+/*  .berlin * {
+
+    --foreground1: black;
+    --foreground2: gray;
+    --background: pink;
+    --accent0: blue;
+    --accent1: orange;
+    --accent2: red;
+    --accent3: yellow;
+    --accent4: purple;
+
+  }
+
+  .belize * {
+    --foreground1: white;
+    --foreground2: gray;
+    --background: blue;
+    --accent0: purple;
+    --accent1: yellow;
+    --accent2: pink;
+    --accent3: green;
+    --accent4: red;
+
+  }*/
+
+
+/*  :root  {
+    --theme-text-styles: {
+      color: var(--foreground1);
+      background-color: var(--background);
+      font-family: sans-serif;
+      font-size: 14pt;
+    };
+    
+
+  }*/
+
+
+
+  .belize /deep/ .accent-colors:nth-child(1) {
+    background-color: var(--belize-accent0-color);
+
+  }
+
+  .belize /deep/ .accent-colors:nth-child(2) {
+    background-color: var(--belize-accent1-color);
+  }
+
+  .belize /deep/ .accent-colors:nth-child(3) {
+    background-color: var(--belize-accent2-color);
+  }
+
+    .berlin /deep/ .accent-colors:nth-child(1) {
+    background-color: var(--berlin-accent0-color);
+  }
+
+  .berlin .accent-colors:nth-child(2) {
+    background-color: var(--berlin-accent1-color);
+  }
+
+  .berlin /deep/ .accent-colors:nth-child(3) {
+    background-color: var(--berlin-accent2-color);
+  }
+  
+</style>
