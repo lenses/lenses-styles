@@ -2,57 +2,36 @@
 
 <style is="custom-style">
 
-  :root {
-    --berlin-foreground1-color: white;
-    --berlin-background-color: blue;
-    --berlin-accent0-color: orange;
-    --berlin-accent1-color: yellow;
-    --berlin-accent2-color: pink;
-
-    --belize-foreground1-color: pink;
-    --belize-background-color: green;
-    --belize-accent0-color: blue;
-    --belize-accent1-color: brown;
-    --belize-accent2-color: red;
-    --belize-accent3-color: var(--belize-accent2-color);
-  }
-/*  .berlin * {
-
-    --foreground1: black;
-    --foreground2: gray;
-    --background: pink;
-    --accent0: blue;
-    --accent1: orange;
-    --accent2: red;
-    --accent3: yellow;
-    --accent4: purple;
-
-  }
-
   .belize * {
-    --foreground1: white;
-    --foreground2: gray;
-    --background: blue;
-    --accent0: purple;
-    --accent1: yellow;
-    --accent2: pink;
-    --accent3: green;
-    --accent4: red;
+    --foreground1: #FFFFFF;
+    --foreground2: #FFFFFF;
+    --background: #303B49;
+    --accent0: #0198E1;
+    --accent1: #3EBFEF; 
+    --accent2: #86CBF0;
+    --accent3: #FCCE63; 
+    --accent4: #D7AA7F;  
+    --accent5: #FDE054;
+    --accent6: #B1B9BF;
+    --accent7: #969696;
+  }
 
-  }*/
+  .berlin * {
+    --foreground1: #FFFFFF;
+    --foreground2: #FFFFFF;
+    --background: #303B49;
+    --accent0: #E64852;
+    --accent1: #5B778D; 
+    --accent2: #1FB0DF;
+    --accent3: #66BCE9; 
+    --accent4: #DADCE0;  
+    --accent5: #515151;
+    --accent6: #F8EB21;
+  }
 
-
-/*  :root  {
-    --theme-text-styles: {
-      color: var(--foreground1);
-      background-color: var(--background);
-      font-family: sans-serif;
-      font-size: 14pt;
-    };
-    
-
-  }*/
-
+  .accent0 {
+    background-color: var(--accent0);
+  }
 
 
   .belize /deep/ .accent-colors:nth-child(1) {
@@ -68,7 +47,7 @@
     background-color: var(--belize-accent2-color);
   }
 
-    .berlin /deep/ .accent-colors:nth-child(1) {
+  .berlin /deep/ .accent-colors:nth-child(1) {
     background-color: var(--berlin-accent0-color);
   }
 
